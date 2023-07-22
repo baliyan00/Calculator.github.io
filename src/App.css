@@ -1,0 +1,28 @@
+.calculator {
+  max-width: 250px;
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+}
+
+.calculator input {
+  width: 90%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.calculator .keypad button {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  font-size: 18px;
+}
+
+.calculator .keypad button.highlight {
+  background-color: #f9ab00;
+}
+
+.calculator .keypad button#clear {
+  width: 20%;
+}
